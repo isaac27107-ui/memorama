@@ -1,0 +1,12 @@
+*{box-sizing:border-box;font-family:Arial,sans-serif}
+body{margin:0;background:#111827;color:white;text-align:center;padding:15px}
+h1{margin:5px 0 0;font-size:28px}
+p{color:#9ca3af;margin:5px 0 15px}
+#info{display:flex;justify-content:center;gap:10px;margin-bottom:15px}
+#info div{background:#1f2937;padding:10px 15px;border-radius:10px;font-weight:bold}
+button{background:#22c55e;color:white;border:0;padding:12px 20px;border-radius:10px;font-size:16px;font-weight:bold;cursor:pointer}
+#tablero{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:420px;margin:15px auto}
+.carta{aspect-ratio:1;background:#374151;border-radius:12px;font-size:38px;display:flex;align-items:center;justify-content:center;cursor:pointer;user-select:none}
+.carta.volteada{background:white;transform:scale(1.03)}
+.carta.acertada{background:#22c55e;cursor:default}
+#mensaje{font-size:20px;font-weight:bold;margin-top:10px;color:#4ade80;min-height:28px}
